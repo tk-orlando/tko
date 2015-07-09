@@ -1,0 +1,67 @@
+/* Global Links */
+a {	color: $color__link;
+	&:visited { color: $color__link-visited; }
+	&:hover,
+	&:focus,
+	&:active { color: $color__link-hover; }
+	&:focus { outline: thin dotted; }
+	&:hover,
+	&:active { outline: 0; }
+}
+
+.main-navigation { clear: none; display: inline-block; float: right; background-color: $color__bg-nav; background-image: $texture__bg; background-repeat: repeat; margin: auto; position: absolute; right: 0; bottom: 0; top: 0; 
+	div.menu-primary-container { padding: 0; }
+	ul { display: none; }
+}
+
+.comment-navigation, .posts-navigation, .post-navigation {
+	.site-main & { margin: 0 0 1.5em; overflow: hidden; }
+	& .nav-previous { float: left; width: 50%; }
+	& .nav-next { float: right; text-align: right; width: 50%; }
+}
+
+/* Small menu. */
+.menu-toggle, .main-navigation.toggled ul { display: block; }
+.main-navigation.toggled ul { @include navtransitions;
+	&#primary-menu { margin: 0; padding: .6em 1em .4em; background-color: $color__bg-nav; background-image: $texture__bg; background-repeat: repeat; 
+		li { display: block; float: none; }
+	}
+}
+button.menu-toggle { height: 78px; border: 0 none; border-radius: 0; background: none; box-shadow: 0 0 0; text-shadow: 0 0 0; color: white; font-size: 1rem; line-height: 4; }
+
+/* 37.5em = 600px and higher
+========================================= */
+@media screen and (min-width: 37.5em) {
+	/* Full-Size Menus */
+	.main-navigation { clear: both; display: block; float: left; width: 100%; display: block; margin: 0 auto; position: relative; top: auto; right: auto; bottom: auto;
+		div.menu-primary-container { max-width: 63.75em; margin: 0 auto; padding: .5em 0; overflow: auto; }
+		ul { list-style: none; margin: 0; padding-left: 0; display: block;
+			ul { float: left; position: absolute; top: 1.5em; left: -999em; z-index: 99999;
+				ul { left: -999em; top: 0; }
+				li {
+					&:hover > ul,
+					&.focus > ul { left: 100%; }
+				}
+				a { width: 200px; }
+				:hover > a,
+				.focus > a { }
+				a:hover,
+				a.focus { }
+			}
+			li:hover > ul, li.focus > ul { left: auto; }
+		} /* ul */
+		li { float: left; position: relative;
+			&.current_page_item a { font-weight: 500; }
+			&:hover > a,
+			&.focus > a { text-decoration: underline; }
+		} /* li */
+		a { padding: 0 .5em; display: block;  font-size: 1.125rem; font-weight: 500; color: #fff; text-decoration: none; text-transform: uppercase; }
+		&.toggled ul { 
+			&#primary-menu { 
+			li { display: inline-block; float: left; }
+			}
+		}
+		.current_page_item > a, .current-menu-item > a, .current_page_ancestor > a { }
+	} /* .main-navigation */
+	.menu-toggle { display: none; }
+}

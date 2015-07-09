@@ -1,0 +1,50 @@
+/* Colors */
+$color__bg-body: #146276;
+$color__bg-screen: #146276;
+$color__bg-body-light: #176a80;
+$color__bg-body-dark: #12596b;
+$color__bg-hr: #ccc;
+$color__bg-btn: #e6e6e6;
+$color__bg-pre: #eee;
+$color__bg-ins: #fff9c0;
+$color__bg-header: #094251;
+$color__bg-nav: #0fa0b5;
+$color__bg-about: #12596b;
+$color__bg-footer: #20505f;
+
+$color__text-screen: #21759b;
+$color__text-light: #b4dce2;
+$color__text-dark: #518fa0;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__link: darken($color__text-screen, 20%);
+$color__link-visited: darken($color__text-screen, 20%);
+$color__link-hover: darken($color__text-screen, 20%);
+$color__text-main: #404040;
+$color__headers-light: #fba919; 
+$color__headers: #f18903;
+$color__headers-med: #fda100;
+$color__headers-dark: #f37320;
+$color__headers-pale: #f9ad5a;
+
+$color__border-btn: #ccc #ccc #bbb;
+$color__border-btn-hover: #ccc #bbb #aaa;
+$color__border-btn-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+$color__input: #12869b;
+$color__input-text: #083f4d;
+
+/* Texture */
+$texture__bg: url('img/pattern.png');
+
+/* Typography */
+$font__main: 'Roboto Condensed', sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+/* Structure */
+$size__site-main: 100%;
+$size__site-sidebar: 25%;

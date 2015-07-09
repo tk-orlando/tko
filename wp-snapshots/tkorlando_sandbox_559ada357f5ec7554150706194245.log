@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2015-07-06 19:42:59
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.12
+WORDPRESS:	4.1.5
+PHP INFO:	5.3.28 | SAPI: apache2handler
+SERVER:		Apache/2.4.9 (Unix) PHP/5.3.28 mod_wsgi/3.4 Python/2.7.6 OpenSSL/1.0.1g 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+MEMORY STACK: 18.5MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP (query limit - 100)
+MYSQLDUMP:    Not Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:13 | filtered:0 | create:13 
+FILTERED: [] 
+SQL CREATED: tkorlando_sandbox_559ada357f5ec7554150706194245_database.sql 
+SQL FILE SIZE: 1.7MB 
+SQL FILE TIME: 2015-07-06 19:42:59 
+SQL RUNTIME: 0.36 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Applications/AMPPS/www/tko 
+ARCHIVE FILE: tkorlando_sandbox_559ada357f5ec7554150706194245_archive.zip 
+FILTERS: *ON* 
+DIRS:  not set 
+EXTS:  mov; 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	56.68MB 
+STATS:	Dirs 320 | Files 2,692 | Links 0 
+SQL ADDED: tkorlando_sandbox_559ada357f5ec7554150706194245_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3012
+    [filename] => /Applications/AMPPS/www/tko/wp-snapshots/tmp/tkorlando_sandbox_559ada357f5ec7554150706194245_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 35.75MB 
+ARCHIVE RUNTIME: 11.61 sec. 
+MEMORY STACK: 19.75MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/Applications/AMPPS/www/tko/wp-snapshots/tmp/tkorlando_sandbox_559ada357f5ec7554150706194245_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 1.7MB 
+Installer File: 316.85KB 
+Archive File: 35.75MB  
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 13.15 sec.
+PEAK PHP MEMORY USED: 21.75MB
+DONE PROCESSING => tkorlando_sandbox 2015-07-06 19:43:12
+ 
